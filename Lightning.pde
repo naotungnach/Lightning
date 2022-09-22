@@ -1,5 +1,5 @@
   int startX = 0;
-  int startY = ((int)(Math.random() * 301));
+  int startY = (((int)(Math.random() * 151))+50);
   int endX = 0;
   int endY = 150;
   int cololor = 0;
@@ -40,7 +40,7 @@ void mousePressed()
   else
     cololor = 0;
   startX = 0;
-  startY =((int)(Math.random() * 301));
+  startY =(((int)(Math.random() * 151))+50);
   endX = 0;
   endY = 150;
   //background((int)(Math.random()*3)-1);
